@@ -1,4 +1,4 @@
-def call() {
+def call(NAMESPACE) {
     script {
                     // Deploy Prometheus using Helm
                     sh '''

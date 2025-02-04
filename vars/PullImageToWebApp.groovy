@@ -1,4 +1,4 @@
-def call() {
+def call(AZURE_WEB_APP_NAME, AZURE_RESOURCE_GROUP, ACR_LOGIN_SERVER,DOCKER_IMAGE_NAME, ACR_USERNAME,ACR_PASSWORD ) {
     script {
                     // Configure Azure Web App to use the latest image from ACR
                     sh '''
