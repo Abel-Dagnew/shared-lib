@@ -1,4 +1,4 @@
-def PullImageToWebApp() {
+def call() {
     script {
                     // Configure Azure Web App to use the latest image from ACR
                     sh '''

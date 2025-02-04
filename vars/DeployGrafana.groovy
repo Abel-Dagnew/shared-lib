@@ -1,4 +1,4 @@
-def DeployGrafana() {
+def call() {
 
     script {
                     // Deploy Grafana using Helm

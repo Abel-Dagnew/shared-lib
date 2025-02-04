@@ -1,4 +1,4 @@
-def DeployToAKS() {
+def call() {
 
     script {
                     // Use kubeconfig from Jenkins credentials

@@ -1,4 +1,4 @@
-def buildPushDockerImage(ACR_NAME, DOCKER_IMAGE_NAME, ACR_LOGIN_SERVER) {
+def call(ACR_NAME, DOCKER_IMAGE_NAME, ACR_LOGIN_SERVER) {
     stage('Build Docker Image') {
         steps {
             script {
