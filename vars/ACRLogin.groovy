@@ -1,4 +1,4 @@
-def call(){
+def call(ACR_PASSWORD, ACR_LOGIN_SERVER,ACR_USERNAME){
 
     script {
                     // Log in to Azure Container Registry using username and password
