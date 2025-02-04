@@ -1,5 +1,5 @@
 // vars/azureLogin.groovy
-def call() {
+def azureLogin() {
     script {
         withCredentials([ 
             string(credentialsId: 'ARM_CLIENT_ID', variable: 'AZURE_CLIENT_ID'),
